@@ -7,12 +7,13 @@
 
 ## 💻 Install
 
-1. **Clone Repository**
+1. **Clone Repository & Setup Environment**
 ```bash
 git clone https://github.com/rizalihwan/test-driven.git
 cd test-driven
 composer install
 copy .env.example .env
+drop your database name, username & password
 php artisan key:generate
 ```
 
@@ -23,8 +24,7 @@ php artisan test
 ```
 
 ## 📝 License
-- Copyright © 2021 Rizal Ihwan.
-- **Perpustakaan is open-sourced software licensed under the MIT license.**
+- **software licensed under the MIT license.**
 
 ------------
 
